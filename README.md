@@ -2,6 +2,22 @@
 
 Official GitHub repo for SyncHub project by amuchina
 
+## Welcome to Synchub!
+
+SyncHub is a web platform designed to resemble a forum, where users can seamlessly create accounts, log in, modify their profile settings, and engage with an interesting and user-friendly graphical interface. Users can upload threads (which represent posts) where they have the flexibility to add categories and tags, facilitating discussions with other users.
+
+### Key Features:
+- User account creation and authentication system.
+- Profile settings customization.
+- Thread creation with category and tag options.
+- Engaging discussion interface.
+- Possibility of creating "Hubs" (groups) for discussing various topic-based arguments
+
+### Project Status:
+SyncHub is currently under development, with ongoing efforts to enhance its features and user experience. Hence, consider that most features are not implemented yet and will take time to be published.
+
+Stay tuned for more updates and improvements as we continue to refine SyncHub for an even better experience!
+
 ## Project Setup Guide
 
 Do these steps in order to run the project locally for development or demo:
