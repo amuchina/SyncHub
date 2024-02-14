@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:wght@700&display=swap');
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ebc9d4;
+    border-radius: 10px;
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    height: 580px;
+}
+.horizontal-line {
+border-top: 1px solid #ccc;
+}
+#logo{
+  margin-left: 12px;
+}
+#signup,
+#login {
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: 'Gabarito';
+}
+
+#profileContainer {
+    background-color: #ed3c77;
+    width: 95px;
+    border-radius: 10px
+}
+
+#like,
+#dislike,
+#comments {
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: white;
+    border: 1px solid #ed3c77;
+    display: inline;
+    width: auto;
+    color: #ed3c77;
+    border-radius: 15px;
+}
+
+#like:hover,
+#dislike:hover,
+#comments:hover {
+    margin-left: 3px;
+    margin-right: 3px;
+    background-image: linear-gradient(45deg, #f6b5eb, #ed3c77);
+    border: 1px solid #ebc9d4;
+    color: rgb(255, 255, 255);
+}
+#notification {
+    margin-right: 10px;
+}
+#navname {
+    margin-left: 10px;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 30px;
+    padding: 0;
+    color: #ef7fa5;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h5{
+    font-family: 'Gabarito';
+    font-weight: bold;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+.tags{
+  color: rgb(255, 255, 255);
+  background-color: rgb(225, 40, 102);
+  display: inline;
+  margin-left: 8px;
+}
+#centersection > .post > .card{
+    border-radius: 15px;
+}
+#centersection > .nsfwpost > .card{
+    border-radius: 15px;
+}
+#centersection > .post > .card:hover{
+    background-color: #f1eaec;
+    cursor: pointer;
+}
+#centersection > .nsfwpost > .card:hover{
+    background-color: #f1eaec;
+    cursor: pointer;
+}
+#categories > li{
+  margin-top: 3px;
+}
+#categories > li > p{
+  display: inline;
+}
+.listgroup{
+  margin-top: 8px;
+  background-color: rgb(255, 236, 245);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.listgroup:hover{
+  background-color: rgb(242, 199, 219);
+}
+.listgroup > li{
+  padding: 10px;
+}
+.listgrouplogo, .listfriendlogo{
+  margin-left: 8px;
+}
+#firstleaderboardgroup{
+  background-color: rgb(255, 235, 169);
+}
+#secondleaderboardgroup{
+  background-color: rgb(228, 228, 228);
+}
+#firstleaderboardgroup > li > a > img,
+#secondleaderboardgroup > li > a > img,
+#thirdleaderboardgroup > li > a > img{
+  margin-left: 8px;
+}
+#thirdleaderboardgroup{
+  background-color: rgb(205, 173, 150);
+}
+#firstleaderboardgroup:hover{
+  background-color: rgb(255, 226, 132);
+}
+#secondleaderboardgroup:hover{
+  background-color: rgb(186, 186, 186);
+}
+#thirdleaderboardgroup:hover{
+  background-color: rgb(176, 141, 115);
+}
+.listfriend{
+  margin-top: 8px;
+  background-color: rgb(194, 235, 255);
+  border-radius: 30px;
+  cursor: pointer;
+}
+.listfriend:hover{
+  background-color: rgb(156, 220, 255);
+}
+.listfriend > li{
+  padding: 10px;
+}
+.navbar{
+  background-color: rgb(255, 220, 235);
+  border-bottom: 1px solid #ccc;
+  /* position: fixed; */
+}
+.navbar > img{
+  width: 30px;
+}
+.navbar > a > p{
+  font-size: 22px;
+  opacity: 50%;
+  display: inline
+}
+#searchbar{
+  width: 400px;
+  border-radius: 15px;
+  background-color: rgb(255, 236, 245);
+  display: inline;
+}
+#searchbutton{
+  border-radius: 15px;
+  display: inline;
+  margin-left: 10px;
+}
+#notificationcenter > button{
+  background-color: rgb(255, 220, 235);
+  border: none;
+  outline: none;
+}
+#searchbutton:hover{
+  background-image: linear-gradient(45deg, #f6b5eb, #ed3c77);
+  border: none;
+  outline: none;
+}
+.bi-bell-fill{
+  font-size: 1.5rem;
+  color: #ed3c77;
+}
+.dropdown-menu > li{
+  text-align: center;
+}
+#signup,
+#login{
+  color: rgb(255, 228, 241);
+  background-color: #ed3c77;
+  border-radius: 15px;
+}
+.listgroup > li > a,
+.listfriend > li > a{
+  text-decoration: none;
+  font-size: 17px;
+  padding: 0;
+  color: black;
+  margin-top: 10px
+}
+.listfriendlogo{
+  width: 10%;
+  display: inline;
+}
+#mostrecents > .listgroup > li > a > img, p{
+  display: inline;
+}
+#mostrecents > .listgroup > li > a > p{
+  display: inline;
+  margin-left: 8px;
+}
+#mostrecents > .listgroup > li > a > img{
+  width: 10%;
+}
+#pinnedgroups > .listgroup > li > a > img, p{
+  display: inline;
+}
+#pinnedgroups > .listgroup > li > a > p{
+  display: inline;
+  margin-left: 8px;
+}
+#pinnedgroups > .listgroup > li > a > img{
+  width: 10%;
+}
+#pinnedgroups > .listgroup{
+  background-color: rgb(237, 237, 237);
+}
+#pinnedgroups > .listgroup:hover{
+  background-color: rgb(215, 215, 215);
+}
+#hubleaderboard > .listgroup > li > a > img, p{
+  display: inline;
+}
+#hubleaderboard > .listgroup > li > a > img{
+  width: 10%;
+}
+#hubleaderboard > .listgroup > li > a > p{
+  display: inline;
+  margin-left: 8px;
+}
+#centersection{
+  height: auto;
+}
+.nsfwpost, .post > .card{
+  margin-bottom: 20px;
+}
+.postauthor, .postaction{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.postauthor > p{
+  margin-bottom: 2px;
+  display: inline;
+}
+.transparentcolor{
+  opacity: 50%;
+  color: #ed3c77;
+  font-family: 'Gabarito';
+}
+.transparent{
+  opacity: 50%;
+  color: #6b6b6b;
+  font-family: 'Gabarito';
+}
+.postauthor > img{
+  width: 3%;
+  display: inline
+}
+.postauthor > p{
+  margin-bottom: 2px;
+  display: inline
+}
+.posttitle{
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+.posttitle > h5, span{
+  display: inline;
+  margin-bottom: 2px;
+}
+.postdescription{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.postaction > button > p{
+  margin-bottom: 2px;
+  display: inline;
+}
+#addpost{
+  color: white;
+  background-color: #ed3c77;
+  border: none;
+  width: 100%;
+  font-size: 25px;
+  padding: 0;
+  border-radius: 10px;
+}
+#askbutton{
+  color: white;
+  background-color: #ed3c77;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 4px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+#friendname{
+  display: inline;
+}
+.contact{
+  opacity: 50%;
+  font-size: 15px;
+}
+#contacts > .transparent{
+  font-size: 18px;
+}
+form[action="search.php"]{
+  margin-top: 2px;
+}
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 210, 218);
+  height: 100vh; /* Colore di sfondo per il corpo della pagina */
+}
+#html{
+  background-color: rgb(233, 210, 218);
+}
+.custom-form {
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(242, 189, 207, 0.7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: rgb(255, 249, 249);
+  font-family: 'Gabarito';
+}
+
+.form-group > input[type="button"]{
+  background-color: #f44d84;
+  border: none
+}
+.custom-form > h2{
+  margin-top: 80px;
+}
+
+#formcontainer {
+  width: 80%;
+}
+
+.form-group{
+  margin-top: 18px
+}
+
+#formtitle{
+  margin-top: 5px
+}
+
+#loginbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loginform {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 30px
+}
+
+#loginform .form-group {
+  margin-bottom: 20px;
+}
+
+#loginform > button{
+  background-color: #f44d84;
+  font-family: 'Gabarito';
+  border: none;
+}
+
+#createaccount {
+    background-color: #f44d84;
+    font-family: 'Gabarito';
+    border: none;
+}
+
+#loginform > h2,
+.form-group > label,
+.form-group > input{
+  font-family: 'Gabarito';
+}
+
+.form-err{
+  font-size: 15px;
+  font-family: 'Gabarito';
+  color: red;
+}
+.form-msg{
+  font-size: 15px;
+  font-family: 'Gabarito';
+  color: greenyellow;
+}
+
+#registrationbody {
+    margin-top: 50px;
+}
+
+#registrationform {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+#registrationform h2 {
+    color: #000000;
+    font-family: 'Gabarito';
+}
+
+#registrationform label {
+    color: #000000;
+}
+
+#registrationform input {
+    margin-bottom: 15px;
+}
+
+#registrationform button {
+    background-color: #f44d84;
+    color: #ffffff;
+}
+
+#registrationform p {
+    color: #8d8d8d;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gabarito';
+}
+
+#registrationform p a {
+    color: #f44d84;
+    text-decoration: none;
+    font-family: 'Gabarito';
+}
+
+#registrationform p a:hover {
+    text-decoration: underline;
+}
+
+#alreadyAccount {
+    margin-bottom: 10px;
+}
+
+#alreadyAccountText {
+    font-family: 'Gabarito';
+    text-decoration: none;
+    color: #8c8c8c;
+}
