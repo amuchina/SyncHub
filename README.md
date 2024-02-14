@@ -91,6 +91,7 @@ We're open to all forms of contribution: reporting bugs, proposing new features,
 8. **Pull Request Acceptance:**
     - Once your Pull Request has been reviewed and approved, it will be accepted and merged into the main project branch.
 
+
 ## Issues and Suggestions
 
 If you encounter issues or have suggestions to improve the project, open an issue on GitHub. We welcome feedback and aim to make this project the best it can be.
