@@ -2,6 +2,38 @@
 
 Official GitHub repo for SyncHub project by amuchina
 
+## Project Setup Guide
+
+Do these steps in order to run the project locally for development or demo:
+
+### Requirements
+- PHP 8.3
+- Composer
+- npm (Node.js)
+- MySQL
+
+### Steps to Run the Project
+
+1. Clone this repository to your local machine.
+2. Navigate to the cloned directory in your terminal.
+3. Run the following commands:
+   - `npm install`
+   - `composer install`
+4. Rename the `.env.example` file to `.env`
+5. Generate an application key by running:
+   `php artisan key:generate`
+6. Migrate the database using:
+   `php artisan migrate`
+7. Seed the database (if applicable) with:
+   `php artisan db:seed`
+8. Compile assets and run Vite with:
+   `npm run dev`
+9. Open another terminal in the same directory and start the Laravel development server with:
+   `php artisan serve`
+10. Ensure your MySQL server is running.
+
+Now, your Laravel project should be up and running smoothly. Enjoy coding!
+
 ## Contribute
 
 We're excited to have new contributors who want to improve and enhance this project. If you're interested in contributing, follow the steps below.
@@ -25,7 +57,7 @@ We're open to all forms of contribution: reporting bugs, proposing new features,
       ```
 
 4. **Make Changes:**
-    - Make your changes or add new features to the code. Be sure to follow the project's guidelines.
+    - Make your changes or add new features to the code. Be sure to test them and follow the project's guidelines.
 
 5. **Commit and Push:**
     - Commit your changes and push your branch to your fork:
