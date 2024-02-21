@@ -1,12 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "es2020",
-    "moduleResolution": "node",
-    "baseUrl": "./",
-    "strict": true,                 
-    "skipLibCheck": true,           
-    "noImplicitAny": false          
-  },
-  "include": ["resources/js/**/*"] 
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "jsx": "react-jsx",
+        "strict": true,
+        "isolatedModules": true,
+        "target": "ESNext",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "paths": {
+            "@/*": ["./resources/js/*"],
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
+        }
+    },
+    "include": ["resources/js/**/*.ts", "resources/js/**/*.tsx", "resources/js/**/*.d.ts"]
 }
